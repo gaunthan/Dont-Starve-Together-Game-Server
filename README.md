@@ -40,7 +40,10 @@ Put your favorite mods in file mods.txt, then run the following commands to depl
 ./deploy-mod-settings.bash
 ```
 
-## Start Server
+## Configure the Server
+Modify file `/home/dstserver/.klei/DoNotStarveTogether/Cluster_1/cluster.ini` to configure your server.
+
+## Start The Server
 ```shell
 su - dstserver
 ./dstserver start
