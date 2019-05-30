@@ -32,7 +32,7 @@ Run the following commands on your Linux Terminal to install dstserver
 ## Install mods
 You should install mods for better game experience.
 
-Put your favorite mods in file mods.txt, then run the following commands to deploy the settings
+Put your favorite mods in file `mods.txt`, then run the following commands to deploy the settings
 
 ```shell
 ./deploy-mod-settings.bash
