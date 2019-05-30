@@ -11,7 +11,7 @@ Login to [klei](http://kleientertainment.com), then visit this [page](https://ac
 
 After entering the server's name, click "ADD NEW SERVER", and you will get an access token.
 
-**Installing `dstserver` will ask you to enter the token, so please copy it to your clipboard.**
+**Later Installing will ask you to enter the token, so please copy it to your clipboard.**
 
 ## Easy Install
 The easiest way to install DST game server is by running the following command
