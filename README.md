@@ -7,13 +7,11 @@ Build your own DST (Don't Starve Together) server by LinuxGSM.
 - [Linux 搭建饥荒联机版服务器](https://www.jianshu.com/p/75cc3cfaf117)
 
 ## Create Server Token
-Login to [klei](http://kleientertainment.com), then visit this [page](https://accounts.klei.com/account/game/servers?game=DontStarveTogether) to create server token.
-
-For easily searching the server when browsing server list, it's a good idea to use a friendly name.
+Login to [klei](http://kleientertainment.com), then visit this [page](https://accounts.klei.com/account/game/servers?game=DontStarveTogether) to create a server token.
 
 After entering the server's name, click "ADD NEW SERVER", and you will get an access token.
 
-*****Installing dstserver will ask you to enter the token, so please copy it to your clipboard.**
+**Installing `dstserver` will ask you to enter the token, so please copy it to your clipboard.**
 
 ## Clone this repo
 
