@@ -16,7 +16,8 @@ do
 done
 
 echo "Enter information for $SERVER_NAME:"
-su -s /bin/bash -c "sed -i '/^ServerModSetup/d' $MODS_SETUP_FILE; \
-                    sed -i '/^ForceEnableMod/d' $MODS_SETTING_FILE; \
-                    cat /tmp/mods_setup_file >> $MODS_SETUP_FILE; \
-                    cat /tmp/mods_setting_file >> $MODS_SETTING_FILE" $SERVER_NAME
+su - $SERVER_NAME -c "
+    sed -i '/^ServerModSetup/d' $MODS_SETUP_FILE;
+    sed -i '/^ForceEnableMod/d' $MODS_SETTING_FILE;
+    cat /tmp/mods_setup_file >> $MODS_SETUP_FILE;
+    cat /tmp/mods_setting_file >> $MODS_SETTING_FILE;"
