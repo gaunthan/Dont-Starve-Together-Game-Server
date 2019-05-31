@@ -10,6 +10,8 @@ else
   cd Dont-Starve-Together-Game-Server
 fi
 
+chmod +x *.bash
+
 # 2. Install dstserver
 ./install-dependencies.bash
 ./install-server.bash
