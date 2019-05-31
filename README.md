@@ -4,6 +4,7 @@ Build your own DST (Don't Starve Together) server by LinuxGSM.
 ## Tutorials
 
 - [Don’t Starve Together - LinuxGSM](https://linuxgsm.com/lgsm/dstserver/)
+- [Dont Starve Together Server Settings](https://docs.linuxgsm.com/game-servers/dont-starve-together)
 - [Linux 搭建饥荒联机版服务器](https://www.jianshu.com/p/75cc3cfaf117)
 
 ## Create Server Token
